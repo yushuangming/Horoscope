@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:textSize="18sp"
+    android:text="二十四节气，是千百年来我国劳动人民随着农业生产的发展而创立的。自然界气象、物候的变化在二十四节气中直接反映出来，为农事活动提供了科学依据。根据中医理论，人与自然界是：天人相应“形神合一”的整体，人类机体的变化、疾病的发生与二十四节气同样紧密相连。二十四节气养生是根据不同节气阐释养生观点，通过养精神、调饮食、练形体等达到强身益寿的目的。"
+    android:textColor="#000"
+    android:layout_height="wrap_content" />
+</LinearLayout>

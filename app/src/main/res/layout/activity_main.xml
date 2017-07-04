@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="yushuangming.test01.u2.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/xingzuo"
+                    android:drawableTop="@drawable/icon1"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:text="星座运势"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/jiemeng"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:drawableTop="@drawable/icon5"
+                    android:gravity="center"
+                    android:text="周公解梦"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:padding="5dp"
+                    android:id="@+id/shengxiao"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/icon2"
+
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="生肖属性"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/cesuan"
+                android:padding="5dp"
+                android:drawableTop="@drawable/icon3"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:text="民俗测算"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll"
+           android:padding="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/yunshi"
+               android:textColor="#04ffb8"
+               android:layout_marginLeft="20dp"
+               android:textSize="24sp"
+               android:text="双子座运势"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:textColor="#04ffb8"
+               android:layout_marginRight="20dp"
+               android:gravity="right"
+               android:textSize="24sp"
+               android:text="切换"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></LinearLayout>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:id="@+id/jiazai"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:text="加载更多"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

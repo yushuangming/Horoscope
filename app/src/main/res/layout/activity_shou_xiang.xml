@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ce_suan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yushuangming.test01.u2.activity.ShouXiangActivity">
+
+    <include layout="@layout/cesuan_item" />
+    <RadioGroup
+        android:id="@+id/rp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <RadioButton
+            android:id="@+id/btn1"
+            android:background="@drawable/shouxiang1"
+            android:button="@null"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+        <RadioButton
+            android:id="@+id/btn2"
+            android:background="@drawable/shouxiang2"
+            android:button="@null"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+        <RadioButton
+            android:id="@+id/btn3"
+            android:background="@drawable/shouxiang3"
+            android:button="@null"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+
+    </RadioGroup>
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+
+</LinearLayout>

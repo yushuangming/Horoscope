@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f2d9c0"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:textColor="#8f5800"
+        android:text="选择生肖"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <View
+        android:background="#8f5800"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RadioButton
+        android:button="@null"
+        android:drawableLeft="@drawable/sx_icon11"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="子鼠"
+        android:layout_width="match_parent"
+        android:id="@+id/zishu"
+        android:layout_height="30dp" />
+
+    <RadioButton
+        android:button="@null"
+        android:drawableLeft="@drawable/sx_icon12"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="丑牛"
+        android:layout_width="match_parent"
+        android:id="@+id/chouniu"
+        android:layout_height="30dp" />
+
+    <RadioButton
+        android:button="@null"
+        android:drawableLeft="@drawable/sx_icon13"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="寅虎"
+        android:layout_width="match_parent"
+        android:id="@+id/yinhu"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:drawableLeft="@drawable/sx_icon14"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="卯兔"
+        android:layout_width="match_parent"
+        android:id="@+id/maotu"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:drawableLeft="@drawable/sx_icon15"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="辰龙"
+        android:layout_width="match_parent"
+        android:id="@+id/chenlong"
+        android:layout_height="30dp" />
+        <RadioButton
+            android:button="@null"
+            android:drawableLeft="@drawable/sx_icon16"
+            android:layout_marginBottom="10dp"
+            android:textSize="23sp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="已蛇"
+            android:layout_width="match_parent"
+            android:id="@+id/yishe"
+            android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/sx_icon17"
+        android:gravity="center_vertical"
+        android:text="午马"
+        android:layout_width="match_parent"
+        android:id="@+id/wuma"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="未羊"
+        android:drawableLeft="@drawable/sx_icon18"
+        android:layout_width="match_parent"
+        android:id="@+id/weiyang"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="申猴"
+        android:layout_width="match_parent"
+        android:id="@+id/shenhou"
+        android:drawableLeft="@drawable/sx_icon19"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:textSize="23sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="酉鸡"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/sx_icon20"
+        android:id="@+id/youji"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:textSize="23sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="戌狗"
+        android:drawableLeft="@drawable/sx_icon22"
+        android:layout_width="match_parent"
+        android:id="@+id/xvgou"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="亥猪"
+        android:drawableLeft="@drawable/sx_icon21"
+        android:layout_width="match_parent"
+        android:id="@+id/haizhu"
+        android:layout_height="30dp" />
+    </RadioGroup>
+
+
+
+</LinearLayout>

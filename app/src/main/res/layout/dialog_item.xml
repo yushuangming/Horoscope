@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:textColor="#00fff7"
+        android:text="选择星座"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <View
+        android:background="#00fff7"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RadioButton
+        android:button="@null"
+        android:drawableLeft="@drawable/xztb_tc1"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="白羊座 (阳历3.21-4.19)"
+        android:layout_width="match_parent"
+        android:id="@+id/baiyang"
+        android:layout_height="30dp" />
+
+    <RadioButton
+        android:button="@null"
+        android:drawableLeft="@drawable/xztb_tc2"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="金牛座 (阳历4.20-5.20)"
+        android:layout_width="match_parent"
+        android:id="@+id/jinniu"
+        android:layout_height="30dp" />
+
+    <RadioButton
+        android:button="@null"
+        android:drawableLeft="@drawable/xztb_tc3"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="双子座 (阳历5.21-6.21)"
+        android:layout_width="match_parent"
+        android:id="@+id/shuangzi"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:drawableLeft="@drawable/xztb_tc4"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="巨蟹座 (阳历6.22-7.22)"
+        android:layout_width="match_parent"
+        android:id="@+id/jvxie"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:drawableLeft="@drawable/xztb_tc5"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="狮子座 (阳历7.23-8.22)"
+        android:layout_width="match_parent"
+        android:id="@+id/shizi"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/xztb_tc6"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="处女座 (阳历8.23-9.22)"
+        android:layout_width="match_parent"
+        android:id="@+id/chunv"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/xztb_tc7"
+        android:gravity="center_vertical"
+        android:text="天秤座 (阳历9.23-10.23)"
+        android:layout_width="match_parent"
+        android:id="@+id/tiancheng"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="天蝎座 (阳历10.24-11.22)"
+        android:drawableLeft="@drawable/xztb_tc8"
+        android:layout_width="match_parent"
+        android:id="@+id/tianxie"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:layout_marginBottom="10dp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="射手座 (阳历11.23-12.21)"
+        android:layout_width="match_parent"
+        android:id="@+id/sheshou"
+        android:drawableLeft="@drawable/xztb_tc9"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:textSize="23sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="摩羯座 (阳历12.22-1.19)"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/xztb_tc10"
+        android:id="@+id/mojie"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:textSize="23sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="水瓶座 (阳历1.20-2.18)"
+        android:drawableLeft="@drawable/xztb_tc11"
+        android:layout_width="match_parent"
+        android:id="@+id/shuiping"
+        android:layout_height="30dp" />
+    <RadioButton
+        android:button="@null"
+        android:textSize="23sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="双鱼座 (阳历2.19-3.20)"
+        android:drawableLeft="@drawable/xztb_tc12"
+        android:layout_width="match_parent"
+        android:id="@+id/shuangyu"
+        android:layout_height="30dp" />
+    </RadioGroup>
+
+
+
+</LinearLayout>

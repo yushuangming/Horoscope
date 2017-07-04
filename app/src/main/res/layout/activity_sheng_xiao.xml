@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sheng_xiao"
+    android:background="#e1cec3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yushuangming.test01.u2.activity.ShengXiaoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/iv"
+        android:background="#fae9e0"
+        android:scaleType="centerInside"
+        android:src="@drawable/sx_banner1"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp" />
+
+        <LinearLayout
+
+            android:padding="10dp"
+            android:background="@drawable/shengxiaoback_shape1"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/gexing"
+                android:textColor="#ff933b"
+                android:gravity="center_vertical"
+                android:text="丑牛的个性标签"
+                android:textSize="24sp"
+                android:drawableLeft="@drawable/sx_icon1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:background="#ff933b"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="#000"
+                        android:text="五行分析："
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:textColor="#000"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="#000"
+                        android:text="本命佛："
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:textColor="#000"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout><LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#000"
+                    android:text="吉祥颜色："
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+
+                    android:textColor="#000"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#000"
+                    android:text="大凶颜色："
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv4"
+                    android:textColor="#000"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout><LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#000"
+                    android:text="幸运数字："
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv5"
+                    android:textColor="#000"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#000"
+                    android:text="大凶数字："
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv6"
+                    android:textColor="#000"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout><LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#000"
+                    android:text="幸运花："
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv7"
+                    android:textColor="#000"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout><LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#000"
+                    android:text="吉祥方位："
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+
+                    android:textColor="#000"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv8" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+            <View
+                android:layout_margin="10dp"
+                android:background="#da8e00"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="2dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="5dp"
+                    android:background="@drawable/shengxiao_shape1"
+                    android:textColor="#fff"
+                    android:text="优点"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000"
+                    android:id="@+id/tv9"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="5dp"
+                    android:background="@drawable/shengxiao_shape1"
+                    android:textColor="#fff"
+                    android:text="缺点"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/tv10"
+                    android:textColor="#000"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="5dp"
+                    android:background="@drawable/shengxiao_shape1"
+                    android:textColor="#fff"
+                    android:text="事业"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000"
+                    android:id="@+id/tv11"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="5dp"
+                    android:background="@drawable/shengxiao_shape1"
+                    android:textColor="#fff"
+                    android:text="爱情"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/tv12"
+                    android:textColor="#000"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="5dp"
+                    android:background="@drawable/shengxiao_shape1"
+                    android:textColor="#fff"
+                    android:text="财运"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000"
+                    android:id="@+id/tv13"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="5dp"
+                    android:background="@drawable/shengxiao_shape1"
+                    android:textColor="#fff"
+                    android:text="健康"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000"
+                    android:text=""
+                    android:id="@+id/tv14"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="5dp"
+                    android:background="@drawable/shengxiao_shape2"
+                    android:textColor="#fff"
+                    android:text="宜配"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:id="@+id/tv15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv17"
+                    android:background="@drawable/shengxiao_shape2"
+                    android:text=""
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="5dp"
+                    android:background="@drawable/shengxiao_shape3"
+                    android:textColor="#fff"
+                    android:text="忌配"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/tv16"
+                    android:textColor="#000"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="5dp"
+                    android:background="@drawable/shengxiao_shape3"
+                    android:id="@+id/tv18"
+                    android:text=""
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/shengxiaoback_shape1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/zhuanti"
+                android:textColor="#38e216"
+                android:gravity="center_vertical"
+                android:text="丑牛的专题大全"
+                android:textSize="24sp"
+                android:drawableLeft="@drawable/sx_icon2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:background="#38e216"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/shengxiao_shape1"
+                    android:gravity="center"
+                    android:text="关于属牛的人"
+                    android:textSize="20sp"
+                    android:padding="7dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:background="@drawable/shengxiao_shape1"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="关于属牛的人"
+                    android:id="@+id/tv_2"
+                    android:textSize="20sp"
+                    android:padding="7dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_3"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/shengxiao_shape1"
+                    android:gravity="center"
+                    android:text="关于属牛的人"
+                    android:textSize="20sp"
+                    android:padding="7dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:background="@drawable/shengxiao_shape1"
+                    android:layout_margin="10dp"
+                    android:id="@+id/tv_4"
+                    android:gravity="center"
+                    android:text="关于属牛的人"
+                    android:textSize="20sp"
+                    android:padding="7dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_5"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/shengxiao_shape1"
+                    android:gravity="center"
+                    android:text="关于属牛的人"
+                    android:textSize="20sp"
+                    android:padding="7dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:background="@drawable/shengxiao_shape1"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:id="@+id/tv_6"
+                    android:text="关于属牛的人"
+                    android:textSize="20sp"
+                    android:padding="7dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_7"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/shengxiao_shape1"
+                    android:gravity="center"
+                    android:text="水电费第三方啥的发送的"
+                    android:textSize="20sp"
+                    android:padding="7dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

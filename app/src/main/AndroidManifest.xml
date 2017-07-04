@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yushuangming.test01.u2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name=".app.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.XingZuoActivity" />
+        <activity android:name=".activity.DangAnActivity" />
+        <activity android:name=".activity.ShengXiaoActivity" />
+        <activity android:name=".activity.MinSuActivity" />
+        <activity android:name=".activity.ShouXiangActivity" />
+        <activity android:name=".activity.JiRiActivity" />
+        <activity android:name=".activity.JieqiActivity" />
+        <activity android:name=".activity.JieMengActivity" />
+        <activity android:name=".activity.JieMentSouSuoActivity" />
+        <activity android:name=".activity.JieMengDetailActivity"></activity>
+    </application>
+
+</manifest>

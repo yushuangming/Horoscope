@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_jieqi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="yushuangming.test01.u2.activity.JieqiActivity">
+
+    <include layout="@layout/cesuan_item" />
+    <yushuangming.test01.u2.view.HeaderGridView
+        android:id="@+id/gv"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:numColumns="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></yushuangming.test01.u2.view.HeaderGridView>
+
+</LinearLayout>

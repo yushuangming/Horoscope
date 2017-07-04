@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_dang_an"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yushuangming.test01.u2.activity.DangAnActivity">
+    <TextView
+        android:id="@+id/title"
+        android:gravity="center"
+        android:text="白羊传说"
+        android:background="#00ffae"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <WebView
+        android:id="@+id/wv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_min_su"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="yushuangming.test01.u2.activity.MinSuActivity">
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/zhcs_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:id="@+id/shouxiang"
+            android:drawableTop="@drawable/zhcs_icon37"
+            android:textSize="18sp"
+            android:text="手相算命"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/jiri"
+            android:drawableTop="@drawable/qt_btn12"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:text="吉日查询"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/jishi"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/zhcs_icon35"
+            android:textSize="18sp"
+            android:text="吉时查询"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/jiehun"
+            android:drawableTop="@drawable/zhcs_icon12"
+            android:textSize="18sp"
+            android:text="结婚吉日"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:id="@+id/shouji"
+            android:drawableTop="@drawable/zhcs_icon28"
+            android:textSize="18sp"
+            android:text="手机号测吉凶"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/chepai"
+            android:drawableTop="@drawable/zhcs_icon29"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:text="车牌测吉凶"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/huangli"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/zhcs_icon5"
+            android:textSize="18sp"
+            android:text="老黄历"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/jieqi"
+            android:drawableTop="@drawable/zhcs_icon27"
+            android:textSize="18sp"
+            android:text="节气查询"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

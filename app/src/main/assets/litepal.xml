@@ -1,0 +1,7 @@
+<litepal>
+    <dbname value="xingzuo"/>
+    <version value="1"/>
+    <list>
+        <mapping class="yushuangming.test01.u2.bean.XingZuo"/>
+    </list>
+</litepal>
